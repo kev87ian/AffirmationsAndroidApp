@@ -53,5 +53,5 @@ public static     TextView data;
 //        });
 //
 //    }
-
+    }
 }
