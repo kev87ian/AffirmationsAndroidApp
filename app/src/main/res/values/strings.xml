@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AffirmationsApp</string>
+    <string name="app_name">Positivity</string>
+    <string name="ps_we_too_believe_in_you">ps: We Too Believe in You</string>
+    <string name="we_all_feel_low_at_times_and_need_a_little_push_to_get_us_through">We all feel low at times and need a little push to get us through</string>
+    <string name="affirmation_message">Affirmation Message</string>
+
 </resources>

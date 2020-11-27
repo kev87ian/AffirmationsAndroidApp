@@ -1,14 +1,16 @@
-package com.kev.affirmationsapp;
+package com.kev.affirmationsapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.kev.affirmationsapp.R;
+
+public class AffirmationsDisplay extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_affirmations_display);
     }
 }
