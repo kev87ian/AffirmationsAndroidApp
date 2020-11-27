@@ -35,11 +35,9 @@ public class FetchData extends AsyncTask<Void, Void, Void> {
                 data = data + line;
             }
 
-            JSONObject responseJSonObe;
 
             try {
                 JSONObject json = new JSONObject( URLDecoder.decode( data, "UTF-8" ) );
-
                 data = json.getString("affirmation");
             } catch (JSONException e) {
                 e.printStackTrace();

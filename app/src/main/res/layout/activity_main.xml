@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".ui.MainActivity">
 
 
@@ -17,26 +18,50 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.691" />
-
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_above="@id/button"-->
-<!--        android:hint="Fetched Affirmation Message"-->
-<!--        android:padding="1dp"-->
-<!--        android:textSize="22sp"-->
-<!--        tools:layout_editor_absoluteX="35dp"-->
-<!--        tools:layout_editor_absoluteY="116dp" />-->
+        app:layout_constraintVertical_bias="0.881" />
 
     <TextView
         android:id="@+id/affirmationTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:hint="Fetched Affirmation Message"
+        android:hint="@string/affirmation_message"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="24dp"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/we_all_feel_low_at_times_and_need_a_little_push_to_get_us_through"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginLeft="1px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/affirmationTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ps_we_too_believe_in_you"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/affirmationTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.127" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

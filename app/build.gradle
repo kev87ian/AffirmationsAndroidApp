@@ -39,4 +39,7 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
     implementation 'com.android.volley:volley:1.1.1'
+    compile( 'com.github.thekhaeng:pushdown-anim-click:1.1.1' ){
+        exclude group: 'com.android.support'
+    }
 }
