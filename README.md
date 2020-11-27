@@ -1,0 +1,1 @@
+A simple Android App using [affirmations API ](https://github.com/annthurium/affirmations) to fetch affirmative messages
